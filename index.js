@@ -863,10 +863,10 @@ var breakpoints=function(){"use strict";function e(e){t.init(e)}var t={list:null
 function isMobile() {
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     // estamos desde un movil o tablet
-    $("#desktop").remove()
+    $("article[name='desktop']").remove()
   }
   else{
-    $("#movil").remove()
+    $("article[name='movil']").remove()
   }
 }
 
