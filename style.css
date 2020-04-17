@@ -2048,3 +2048,7 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+
+a.redes:link{
+  text-decoration: none;
+}
