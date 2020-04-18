@@ -1345,13 +1345,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.poptrox-popup:before {
+			/*.poptrox-popup:before {
 				display: none;
 			}
 
 			.poptrox-popup .caption {
 				display: none !important;
-			}
+			}*/
 
 			.poptrox-popup .closer,
 			.poptrox-popup .nav-previous,
