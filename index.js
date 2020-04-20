@@ -866,7 +866,12 @@ function isMobile() {
     $("article[name='desktop']").remove()
   }
   else{
-    $("article[name='movil']").remove()
+    if ($(window).width() < 480){
+      $("article[name='desktop']").remove()
+    }
+    else{
+    $("article[name='movil']").remove()    
+    }
   }
 }
 
